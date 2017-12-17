@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.davelloyd.cropwellwalks2.CropwellWalks">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:text="Explore the countryside south of Nottingham, just 8 miles from the city. Hire one of our guides, or use our personalised maps"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_margin="2sp"
+        android:textStyle="bold"
+        android:text="Contact us today:"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:layout_margin="1sp"
+        android:text="Cropwell Walks Ltd"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:text="45a Church Street, Cropwell Bishop, Notts"
+        android:layout_margin="1sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:layout_margin="1sp"
+        android:text="Email:cropwell-walker@gmail.com"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_margin="3sp"
+        android:text="Photo shows typical rural scenery here - fields 1km from Cropwell Bishop:"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fields"
+        android:id="@+id/fields"
+        android:scaleType="centerCrop"
+        android:layout_margin="1dp"
+        />
+
+</LinearLayout>
